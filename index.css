@@ -1,0 +1,129 @@
+:root {
+    --back: #000000;
+    --Clock: #33CCB5;
+  }
+
+body{
+padding: 0%;
+margin: 0%;
+width: 100%;
+background: var(--back);
+
+
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color:var(--Clock);
+    font-size: 50px;
+    /* background: #1d2d2b; */
+}
+.container{
+position: absolute;
+align-items: center;
+top: 20%;
+left: 25%;
+
+
+}
+#display{
+width: 100%;
+font-size: 100px;
+text-align: center;
+border: 3px ;
+/* color: black; */
+/* for coloring font */
+
+font-family: Arial, 
+Helvetica, sans-serif;
+background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
+
+
+/* --------************------ */
+
+
+
+font-weight: bolder;
+
+}
+.input{
+  width: 100%;
+  border: 3px ;
+  /* for coloring font */
+
+font-family: Arial, 
+Helvetica, sans-serif;
+background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+/* -webkit-text-fill-color: transparent; */
+/* -webkit-background-clip: text; */
+
+
+
+/* --------************------ */
+  
+  align-items: center;
+  padding: 10px ;
+  margin: 20px;
+
+}
+
+.timers{
+
+  width: 100%;
+  border: 3px solid black;
+  /* for coloring font */
+
+font-family: Arial, 
+Helvetica, sans-serif;
+background: linear-gradient(217deg, rgba(239, 239, 23, 0.8), rgba(124,252,0) 70.71%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
+
+
+/* --------************------ */
+  text-align: center;
+  
+
+}
+#hr,#min,#zone{
+/* border-color: aqua; */
+background: #000000;
+color: rgb(24, 239, 39);
+margin: 8px;
+border-radius: 5px;
+border: 0px;
+height: 40px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */text-align: center;
+  color: rgb(171, 192, 35);
+  opacity: 1; /* Firefox */
+}
+
+.submitBtn {
+width: 5%;
+margin: 20px;
+position: absolute;
+/* padding-top: 60px; */
+/* border: 3px solid beige; */
+
+}
+
+.delBtn{
+
+  width: 50px;
+}
+.delete{
+  border-radius: 50px;
+  background: #080808;
+  border: 0px;
+}
+
